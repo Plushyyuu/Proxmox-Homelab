@@ -1,6 +1,7 @@
 Proxmox VE Infrastructure
 =========================
 
+
 Summary
 -------
 My personal homelab uses the Proxmox Virtual Environment to host and manage multiple VM's and Linux containers on a single physica server. Proxmox allows me to allocate hardware resources, manage virtual machines and systems, and to monitor the health and statuses of my homelab
