@@ -1,9 +1,9 @@
 # Proxmox-Homelab
 A personal documentation of a Proxmox VE homelab for virtualization, Linux server administration, networking, VPN remote access, and self-hosted services.
 
-Suggest order of the walkthrough:
+Suggest order of the walkthrough, top to bottom:
 1. [Proxmox](/proxmox)
-2. Architecture
+2. [Architecture](/architecture)
 3. a
 4. a
 5. a
