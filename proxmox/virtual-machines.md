@@ -11,4 +11,6 @@ VM and Container Configuration
 | Storage Backend | local-lvm | local-lvm | local-lvm |
 | Network Bridge | vmbr 0 | vmbr0 | vmbr0
 | Network Type | virtIO | virtIO | veth |
-OS | Ubuntu-server | Ubuntu-based | Ubuntu container | 
+OS | Ubuntu Server 26.04 LTS | Ubuntu Server 26.04 LTS | Ubuntu 26.04 LTS | 
+
+
