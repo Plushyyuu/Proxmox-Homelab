@@ -30,7 +30,7 @@ Network Architecture
 --------------------
 The homelab is configured on network bridge (vmbr0) to provide network connectivity between the host, virtual machines, and Linux containers. 
 
-More details to Network Architecture are found in [placeholder]
+More details to Network Architecture are found in [architecture](/architecture)
 
 Storage Management 
 ------------------
