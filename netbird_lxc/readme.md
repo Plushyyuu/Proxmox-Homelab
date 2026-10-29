@@ -43,5 +43,5 @@ To verify remote access, I connected my Windows computer to my university's edur
 
 I enabled NetBird and tested connectivity to my Proxmox host server. 
 
-Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](/remote-access-testing.md)
+Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](./remote-access-testing.md)
 
