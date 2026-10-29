@@ -1,3 +1,24 @@
 Work-in-progress
 
 A docemntation of remote access to the host server from outside the local network. A demonstration of accessing the server externally will be recorded.
+
+NetBird VPN
+===========
+
+Overview
+--------
+NetBird is used in my Proxmox host server to provide secure remote access to my home server from external networks. 
+
+The purpose of this project is to configure a VPN connection that allows me to remotely access and manage my Proxmox VE without exposing the interface to the public internet.
+
+NetBird runs on a Linux LXC container in my Proxmox host server. 
+
+Platforms Used
+------------
+| Technology | Purpose |
+| ---------- | ------- | 
+| Proxmox VE | VM Platform | 
+| Linux LXC | FOR Hosting the NetBird VPN |
+| NetBird | Remote VPN access and peer management |
+| Windows | Testing remote access to main client via desktop device | 
+| iOS | Testing remote access to main client via smartphone device | 
