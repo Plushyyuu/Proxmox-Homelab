@@ -6,6 +6,24 @@ The storage is seperated into divided volumes to organize the available space us
 
 A large volume HDD will be installed in the server in the near future to expand the homelab with new VM's for specialized purposes such as a backup storage system.
 
+Storage Commands and Administration 
+-----------------------------------
+The following commands below were used to document, monitor, and observe the storage utilization, inspect partitions, and reviewing disk health. 
+
+| Command | Purpose | 
+| ------- | ------- |
+| pvsem status | Displays storage pools and usage |
+| lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS | Displays physical disks, partitions and logical volumes |
+| lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS | Displays filesystem types |
+| df -h | Displaying filesystem usage | 
+| df -hT | Displaying filesystem with FS type |
+| fdisk -l /dev/nvme0n1 | Viewing partitioning table and types | 
+| smartctl -a /dev/nvme0n1 | Monitoring SSD health and SMART data |
+| pvesm list local-lvm | Viewing virtual disks in local-lvm |
+| pvesm list local --content backup | Checking for backup files | 
+| vgs | Displaying LVM volume group information |
+| lvs | Displaying physical volumes and available space | 
+
 
 Physical Storage
 ----------------
@@ -69,23 +87,7 @@ The Samsung NVMe SSD was used for originally for a Windows 11 desktop for 2 year
 
 However, when investigating further, the SSD experienced 223 unsafe shutdowns and 13,389 error information log entries. The entries will be investigated to determine if the logs have any purpose. 
 
-Storage Commands and Administration 
------------------------------------
-The following commands below were used to document, monitor, and observe the storage utilization, inspect partitions, and reviewing disk health. 
 
-| Command | Purpose | 
-| ------- | ------- |
-| pvsem status | Displays storage pools and usage |
-| lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS | Displays physical disks, partitions and logical volumes |
-| lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS | Displays filesystem types |
-| df -h | Displaying filesystem usage | 
-| df -hT | Displaying filesystem with FS type |
-| fdisk -l /dev/nvme0n1 | Viewing partitioning table and types | 
-| smartctl -a /dev/nvme0n1 | Monitoring SSD health and SMART data |
-| pvesm list local-lvm | Viewing virtual disks in local-lvm |
-| pvesm list local --content backup | Checking for backup files | 
-| vgs | Displaying LVM volume group information |
-| lvs | Displaying physical volumes and available space | 
 
 
 
