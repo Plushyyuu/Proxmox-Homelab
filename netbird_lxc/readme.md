@@ -18,7 +18,7 @@ Platforms Used
 | Technology | Purpose |
 | ---------- | ------- | 
 | Proxmox VE | VM Platform | 
-| Linux LXC | FOR Hosting the NetBird VPN |
+| Linux LXC | Hosting the NetBird VPN |
 | NetBird | Remote VPN access and peer management |
 | Windows | Testing remote access to main client via desktop device | 
 | iOS | Testing remote access to main client via smartphone device | 
