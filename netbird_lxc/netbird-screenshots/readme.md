@@ -9,6 +9,6 @@ Context
    
 ![NetBird VPN Connected on School Network](./VPN_On_School_Network.png) 
 
-2. Image 2 below is to demonstrate successfully accessing the Proxmox host server remotely on an external network outside from the local network.
+2. Image 2 below is to demonstrate successfully accessing the Proxmox host server remotely on an external network (university network).
 
 ![NetBird Proxmox Access on School Network](./Proxmox_Access_School_Network.png)
