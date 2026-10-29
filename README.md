@@ -4,7 +4,7 @@ A personal documentation of a Proxmox VE homelab for virtualization, Linux serve
 Suggest order of the walkthrough, top to bottom:
 1. [Proxmox](/proxmox)
 2. [Architecture](/architecture)
-3. a
+3. [Netbird LXC](/netbird_lxc)
 4. [Minecraft VM](/minecraft_vm)
 5. a
 6. a
