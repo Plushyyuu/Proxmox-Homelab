@@ -5,4 +5,6 @@ THe netbird-screenshots folder is used to provide demonstration of using the Net
 
 Context
 -------
-1. The image provided is to demonstrate that activating the NetBird on a external network outside the network of the Proxmox host server is working. ![NetBird VPN Connected on School Network](./VPN_On_School_Network.png) 
+1. The image provided is to demonstrate that activating the NetBird on a external network outside the network of the Proxmox host server is working.
+
+![NetBird VPN Connected on School Network](./VPN_On_School_Network.png) 
