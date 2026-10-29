@@ -2,6 +2,15 @@ VM Infrastructure
 =================
 My homelab uses a Proxmox Virtual Environment (VE) to manage virtual machines and Linux containers on one physical server. The network is configured using a virtual Linux bridge to connect the Proxmox host, virtual systems, and my local home network. 
 
+Table of Contents
+1. Network Configuration (pve)
+2. Network Topology
+3. Virtual Infrastructure
+4. VM 100 - Minecraft
+5. VM 101 - Docker01
+6. LXC 102 - NetBird
+7. Network Commands
+
 
 Network Configuration (pve)
 ---------------------------
@@ -17,9 +26,11 @@ Network Configuration (pve)
 | Assignment | Static | 
 
 
-Netork Topology
+Network Topology
 ---------------
 The physical network interface (nic0) is connected to the virtual network Linux bridge (vmbr0) to provide connectivity between the Proxmox host, VM's, and containers. The Proxmox host is on a static IP address at 192.168.1.181/24 with a default gateway; 192.168.1.1. 
+
+A diagram of the topology is available in the screenshots folder. 
 
 
 Virtual Infrastructure
