@@ -37,7 +37,7 @@ The Samsung NVMe SSD uses GPT with three partitions.
 
 Disk partitioning table was verified using fdisk -l /dev/nvme0n1.
 
-| Paritition | Size | Type | Purpose |
+| Partition | Size | Type | Purpose |
 | ---------- | ---- | ---- | ------- |
 | nvme0n1 | 1007 Kib | BIOS Boot | For BIOS bootloader support | 
 | nvme0n2 | 1 Gib | EFI System | EFI Boot partition on /boot/efi | 
@@ -68,6 +68,26 @@ Review on 10/29/2026
 The Samsung NVMe SSD was used for originally for a Windows 11 desktop for 2 years before being reused for the Proxmox host server. The SSD passed the overall SMART Health Assessment with no critical warning at 0x00 indicating the SSD was used carefully to prevent wear and tear. 
 
 However, when investigating further, the SSD experienced 223 unsafe shutdowns and 13,389 error information log entries. The entries will be investigated to determine if the logs have any purpose. 
+
+Storage Commands and Administration 
+-----------------------------------
+The following commands below were used to document, monitor, and observe the storage utilization, inspect partitions, and reviewing disk health. 
+
+| Command | Purpose | 
+| ------- | ------- |
+| pvsem status | Displays storage pools and usage |
+| lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS | Displays physical disks, partitions and logical volumes |
+| lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS | Displays filesystem types |
+| df -h | Displaying filesystem usage | 
+| df -hT | Displaying filesystem with FS type |
+| fdisk -l /dev/nvme0n1 | Viewing partitioning table and types | 
+| smartctl -a /dev/nvme0n1 | Monitoring SSD health and SMART data |
+| pvesm list local-lvm | Viewing virtual disks in local-lvm |
+| pvesm list local --content backup | Checking for backup files | 
+| vgs | Displaying LVM volume group information |
+| lvs | Displaying physical volumes and available space | 
+
+
 
 
 
