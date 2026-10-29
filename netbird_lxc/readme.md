@@ -27,7 +27,7 @@ LXC Configuration
 -----------------
 | Component | Configuration | 
 | --------- | ------------- | 
-| ID | 102 | 
+| Container ID | 102 | 
 | Hostname | NetBird | 
 | Arch | amd64 | 
 | OS | Ubuntu | 
@@ -35,7 +35,16 @@ LXC Configuration
 | Memory | 1.00 Gib | 
 | Storage | 7.78 Gib |
 | Network Bridge | vmbr0 | 
-| VPN Software | NetBird | 
+| LAN Interface | eth0 |
+| VPN Interface | wt0 |
+| VPN Software | NetBird 0.77.0 | 
+
+NetBird Service Configuration
+-----------------------------
+| Component | Configuration | 
+| Service | netbird.service |
+| Status | active (running) |
+| aaaa | aaaa |
 
 Remote Access Testing
 ---------------------
