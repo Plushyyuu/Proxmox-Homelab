@@ -22,3 +22,24 @@ Platforms Used
 | NetBird | Remote VPN access and peer management |
 | Windows | Testing remote access to server client via desktop device | 
 | iOS | Testing remote access to server client via smartphone device | 
+
+LXC Configuration
+-----------------
+| Component | Configuration | 
+| --------- | ------------- | 
+| ID | 102 | 
+| Hostname | NetBird | 
+| Arch | amd64 | 
+| OS | Ubuntu | 
+| CPU Cores | 1 |
+| Memory | 1.00 Gib | 
+| Storage | 7.78 Gib |
+| Network Bridge | vmbr0 | 
+| VPN Software | NetBird | 
+
+Remote Access Testing
+---------------------
+To verify remote access, I connected my Windows computer to my university's eduroam Wi-Fi network, outside of my home local network. I enabled NetBird and tested connectivity to my Proxmox host server. 
+
+Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](netbird_lxc/remote-access-testing.md)
+
