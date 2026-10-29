@@ -39,7 +39,9 @@ LXC Configuration
 
 Remote Access Testing
 ---------------------
-To verify remote access, I connected my Windows computer to my university's eduroam Wi-Fi network, outside of my home local network. I enabled NetBird and tested connectivity to my Proxmox host server. 
+To verify remote access, I connected my Windows computer to my university's eduroam Wi-Fi network, outside of my home local network. 
 
-Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](netbird_lxc/remote-access-testing.md)
+I enabled NetBird and tested connectivity to my Proxmox host server. 
+
+Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](/remote-access-testing.md)
 
