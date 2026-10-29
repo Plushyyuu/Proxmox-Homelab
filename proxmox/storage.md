@@ -89,7 +89,7 @@ However, when investigating further, the SSD experienced 223 unsafe shutdowns an
 
 Improvements to Storage Management 
 ----------------------------------
-When inspecting the storage configuration using list local --content backup, the shell returned an empty list containing no backup files in the local storage pool. I have not configured backup files yet as I lack the necessary space for large volumes of backup files. 
+When inspecting the storage configuration using list local --content backup, the shell returned an empty list containing no backup files in the local storage pool with a message: Volid Format Type Size VMID. I have not configured backup files yet as I lack the necessary space for large volumes of backup files. 
 
 Backups are important for protecting VM's and containeers against possible human errors and system errors such as accidental deletion, configuration errors, filesystem corruption, and physical storage failure. 
 
