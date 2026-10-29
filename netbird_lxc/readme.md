@@ -45,3 +45,10 @@ I enabled NetBird and tested connectivity to my Proxmox host server.
 
 Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](./netbird-screenshots/remote-access-testing.md)
 
+VPN Objectives
+--------------
+- To use NetBird authentication and access controls.
+- To avoid publicly exposing the Proxmox interface.
+- Keep VPN updated and Linux container updated.
+- Only allow VPN access to personal devices I trust as authorized.
+
