@@ -41,7 +41,9 @@ LXC Configuration
 
 NetBird Service Configuration
 -----------------------------
+
 | Component | Configuration | 
+| --------- | ------------- |
 | Service | netbird.service |
 | Status | active (running) |
 | aaaa | aaaa |
