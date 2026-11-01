@@ -6,7 +6,7 @@ This short document showcases the process of updating NetBird in the Proxmox LXC
 
 1. Image 1 below showcases the previous version of NetBird at version 0.77.0
 
-![Before Update](./Before_Update.png)
+![Before Update](./Before_Updating.png)
 
 3. Image 2 below cases the newer updated version of NetBird at version 0.82.0
 
