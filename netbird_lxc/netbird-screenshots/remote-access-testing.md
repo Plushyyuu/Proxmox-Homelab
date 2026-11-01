@@ -15,4 +15,4 @@ Context
 
 3. Image 3 below demonstrates the NetBird Control Center, visualizing the VPN peers, access control policies, and private network resources configured for my Proxmox host.
 
-![NetBird Control Center](./NetBird Control Center.png)
+![NetBird Control Center](./NetBird_Control_Center.png)
