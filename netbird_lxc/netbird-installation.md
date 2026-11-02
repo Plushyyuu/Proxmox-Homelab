@@ -28,11 +28,6 @@ Installing NetBird Service
 
 After using curl -fsSL `http://pkgs.netbird.io/install.sh` | sh , I created an account on NetBird and followed the instruction. I was then given a setup key and then established a successful connection between the LXC container and the NetBird Control Center using netbird up --setup-key <setup_key>. 
 
-
-Why NetBird? 
-------------
-I needed a lightweight VPN that was open-source. My first option was Tailscale. However, the reason why I did not go with Tailscale because even it is more "simpler" to use than NetBird, is that Tailscale is not fully self-hostable. Tailscale is properietary and data is still managed by Tailscale cloud servers. I wanted something to be more private where I know my data is kept only to my Proxmox server. Thus I found NetBird more trustworthy and even if it was "less" beginner-friendly. I learned how to use NetBird in the end. 
-
 Conclusion
 ----------
 
@@ -40,8 +35,8 @@ NetBird VPN was installed on the Proxmox VE LXC container using the terminal and
 
 Referencees
 -----------
-[NetBird Proxmox VE Installation](https://docs.netbird.io/get-started/install/proxmox-ve)
-[NetBird Linux Installation](https://docs.netbird.io/get-started/install/linux)
+- [NetBird Proxmox VE Installation](https://docs.netbird.io/get-started/install/proxmox-ve)
+- [NetBird Linux Installation](https://docs.netbird.io/get-started/install/linux)
 
 
 
