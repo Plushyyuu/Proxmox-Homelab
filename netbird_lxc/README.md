@@ -46,7 +46,6 @@ NetBird Service Configuration
 | --------- | ------------- |
 | Service | netbird.service |
 | Status | active (running) |
-| aaaa | aaaa |
 
 Remote Access Testing
 ---------------------
