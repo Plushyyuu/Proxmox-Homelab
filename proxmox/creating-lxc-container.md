@@ -41,7 +41,7 @@ Step 2: Disk Allocation
 | Setting | Configuration |
 | ------- | ------------- | 
 | Storage | local-lvm |
-| Disk Size (GiB | 8 | 
+| Disk Size (GiB) | 8 | 
 
 Disk Configuration Screenshot:
 
