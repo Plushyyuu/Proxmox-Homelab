@@ -1,5 +1,6 @@
 NetBird Installation
 ====================
+The purpose of this document is to showcase the process of installing the NetBird VPN in an LXC container on Proxmox VE. 
 
 
 | Commands | Summary |
@@ -14,3 +15,9 @@ NetBird Installation
 | netbird status -d | Displays further VPN information with connections and peers | 
 | systemctl status netbird | Checks the NetBird service status |
 | systemctl is-enabled netbird | Checks if NetBird service is enabled automatically | 
+
+
+
+Why NetBird? 
+------------
+I needed a lightweight VPN that was open-source. My first option was Tailscale. However, the reason why I did not go with Tailscale because even it is more "simpler" to use than NetBird, is that Tailscale is not fully self-hostable. Tailscale is properietary and data is still managed by Tailscale cloud servers. I wanted something to be more private where I know my data is kept only to my Proxmox server. Thus I found NetBird more trustworthy and even if it was "less" beginner-friendly. I learned how to use NetBird in the end. 
