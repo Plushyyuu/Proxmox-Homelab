@@ -56,6 +56,10 @@ I enabled NetBird and tested connectivity to my Proxmox host server.
 
 Further documented details for Remote Access Testing can be found here [Remote Access Testing Documentation](./remote-access-testing.md)
 
+NetBird Installation Process
+----------------------------
+NetBird installation details can be found on [NetBird Installtion Process](./NetBird-Installtion.md)
+
 VPN Objectives
 --------------
 - To use NetBird authentication and access controls.
