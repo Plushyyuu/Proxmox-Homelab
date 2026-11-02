@@ -58,7 +58,7 @@ Further documented details for Remote Access Testing can be found here [Remote A
 
 NetBird Installation Process
 ----------------------------
-NetBird installation details can be found on [NetBird Installtion Process](./NetBird-Installtion.md)
+NetBird installation details can be found on [NetBird Installtion Process](./netbird-installtion.md)
 
 VPN Objectives
 --------------
