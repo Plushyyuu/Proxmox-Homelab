@@ -3,7 +3,7 @@ Creating LXC Container in Proxmox VE
 
 The purpose of this markdown file is to document the process of creating an LXC container within the Proxmox VE environment.
 
-For this demonstration, a test LXC container named "test" is created to document the process of deploying the NetBird VPN within the Proxmox Host with details at: [placeholder]
+For this demonstration, a test LXC container named "test" is created to document the process of deploying the NetBird VPN within the Proxmox Host.
 
 Creating LXC Container
 ----------------------
@@ -94,3 +94,11 @@ The LXC container is configured to use the vmbr0 bridge to communicate with the 
 Network Configuration Screenshot: 
 
 ![network](./proxmox-screenshots/networkconfig.png)
+
+Summary
+-------
+The LXC container was made through the Proxmox VE web interface to configure the OS, storage, CPU, memory, and network settings. The newly created LXC will be used to document the installation of NetBird. 
+
+For further details on the NetBird installation: [placeholder]
+
+
