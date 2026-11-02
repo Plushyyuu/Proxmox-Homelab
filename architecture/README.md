@@ -10,6 +10,7 @@ Table of Contents
 5. VM 101 - Docker01
 6. LXC 102 - NetBird
 7. Network Commands
+8. VM Topology Image
 
 
 Network Configuration (pve)
@@ -71,3 +72,6 @@ The commands found below were used to identify the configuration settings of the
 | pct config 102 | Inspecting the NetBird container configuration settings |
 | pct exec 102 ip addr | Inspecting the Netbird container IP configurations | 
 | pct exec 102 -- ip a | Inspecting the network interfaces in Netbird container | 
+
+VM Topology
+-----------
