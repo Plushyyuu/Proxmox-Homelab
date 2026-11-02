@@ -26,7 +26,7 @@ Installing NetBird Service
 | systemctl status netbird | Checks the NetBird service status |
 | systemctl is-enabled netbird | Checks if NetBird service is enabled automatically | 
 
-After using curl -fsSL `http://pkgs.netbird.io/install.sh` | sh , I created an account on NetBird and followed the instruction. I was then given a setup key and then established a successful connection between the LXC container and the NetBird Control Center using netbird up --setup-key <setup_key>. 
+After using curl -fsSL `http://pkgs.netbird.io/install.sh` | sh , I created an account on NetBird and followed the given instructions. I was then given a setup key and then established a successful connection between the LXC container and the NetBird Control Center using netbird up --setup-key <setup_key>. 
 
 Conclusion
 ----------
