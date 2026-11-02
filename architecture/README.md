@@ -4,7 +4,6 @@ My homelab uses a Proxmox Virtual Environment (VE) to manage virtual machines an
 
 Table of Contents
 1. Network Configuration (pve)
-2. Network Topology
 3. Virtual Infrastructure
 4. VM 100 - Minecraft
 5. VM 101 - Docker01
@@ -26,13 +25,6 @@ Network Configuration (pve)
 | Subnet | 192.168.1.0 |
 | Default Gateway | 192.168.1.1 |
 | Assignment | Static | 
-
-
-Network Topology
----------------
-The physical network interface (nic0) is connected to the virtual network Linux bridge (vmbr0) to provide connectivity between the Proxmox host, VM's, and containers. The Proxmox host is on a static IP address at 192.168.1.181/24 with a default gateway; 192.168.1.1. 
-
-A diagram of the topology is available in the screenshots folder. 
 
 
 Virtual Infrastructure
@@ -76,8 +68,14 @@ The commands found below were used to identify the configuration settings of the
 
 VM Architecture Topology Image
 ------------------------------
+The diagram below shows the virtual infrastructure of the Proxmox VE host server. The Proxmox host is connected to my home router and currently manages three seperate virtual environments. 
+
 ![VM Architecture Topology](./architecture-screenshots/VM_Architecture_2026.png)
 
 Network Topology Image
 ----------------------
+The diagram below showcases the network configuration of the Proxmox VE host server environment. The home router serves as the default gateway and is connected to the Proxmox host via physical ethernet (nic0). 
+
+The physical network interface (nic0) is connected to the virtual network Linux bridge (vmbr0) to provide connectivity between the Proxmox host, VM's, and containers. The Proxmox host is on a static IP address at 192.168.1.181/24 with a default gateway; 192.168.1.1. 
+
 ![Network Topology](./architecture-screenshots/Network_Topology.png)
