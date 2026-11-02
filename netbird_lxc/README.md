@@ -1,7 +1,3 @@
-Work-in-progress
-
-A docemntation of remote access to the host server from outside the local network. A demonstration of accessing the server externally will be recorded.
-
 NetBird VPN
 ===========
 
@@ -12,6 +8,10 @@ NetBird is used in my Proxmox host server to provide secure remote access to my 
 The purpose of this project is to configure a VPN connection that allows me to remotely access and manage my Proxmox VE without exposing the interface to the public internet.
 
 NetBird runs on a Linux LXC container in my Proxmox host server. 
+
+Why NetBird? 
+------------
+I needed a lightweight VPN that was open-source. My first option was Tailscale. However, the reason why I did not go with Tailscale because even it is more "simpler" to use than NetBird, is that Tailscale is not fully self-hostable. Tailscale is properietary and data is still managed by Tailscale cloud servers. I wanted something to be more private where I know my data is kept only to my Proxmox server. Thus I found NetBird more trustworthy and even if it was "less" beginner-friendly. I learned how to use NetBird in the end. 
 
 Platforms Used
 ------------
