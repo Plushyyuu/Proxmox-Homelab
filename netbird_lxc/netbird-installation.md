@@ -26,4 +26,4 @@ Preparing LXC Container
 -----------------------
 The LXC Container was created first and configured with an OS and network connection.
 
-More details and instructions are found on: [Creating an LXC Container](./creating-lxc-container.md)
+More details and instructions are found on: [Creating an LXC Container](./proxmox/creating-lxc-container.md)
