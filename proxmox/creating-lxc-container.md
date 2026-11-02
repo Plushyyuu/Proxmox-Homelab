@@ -45,7 +45,7 @@ Step 2: Disk Allocation
 
 Disk Configuration Screenshot:
 
-![template](./proxmox-screenshots/diskconfig.png)
+![disk](./proxmox-screenshots/diskconfig.png)
 
 Step 3: CPU Configuration
 -------------------------
@@ -57,7 +57,7 @@ Only 1 Core was allocated as the LXC container is only used for VPN purposes. Ne
 
 CPU Configuration Screenshot: 
 
-![template](./proxmox-screenshots/cpucores.png)
+![cpu](./proxmox-screenshots/cpucores.png)
 
 Step 4: Memory Configuration
 ----------------------------
@@ -71,7 +71,7 @@ Since only less than 10 peers at once is planned, 1048 MiB or 1 GiB is sufficien
 
 Memory Configuration Screenshot: 
 
-![template](./proxmox-screenshots/memoryconfig.png)
+![memory](./proxmox-screenshots/memoryconfig.png)
 
 Step 5: Network Configuration
 -----------------------------
@@ -93,4 +93,4 @@ The LXC container is configured to use the vmbr0 bridge to communicate with the 
 
 Network Configuration Screenshot: 
 
-![template](./proxmox-screenshots/networkconfig.png)
+![network](./proxmox-screenshots/networkconfig.png)
